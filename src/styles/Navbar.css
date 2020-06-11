@@ -1,3 +1,41 @@
 #Navbar {
+    position: fixed;
+    top:0;
+    left:0;
+    height: 60px;
+    width: 100%;
+    background-color: #21CBC1;
+}
 
+#Navbar-header {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 0 0 2%;
+    font-size: 24pt;
+    font-family: "Montserrat";
+    color: white;
+}
+
+#Navbar-fields {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    padding: 0 6% 0 0;
+
+    height: 60px;
+    line-height: 60px;
+    vertical-align: center;
+    overflow: hidden;
+}
+
+#Navbar-fields p {
+    display:inline;
+    /*word-wrap: break-word;*/
+    padding: 0 1.5%;
+    
+    font-size: 24pt;
+    font-family: "Raleway";
+    color: white;
 }

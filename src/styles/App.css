@@ -2,10 +2,83 @@
   text-align: center;
 }
 
+#Header {
+  /*position: absolute;
+  top: 60px;
+  left: 0;*/
+
+  padding: 60px 0 0 0;
+  height: 70vh;
+  width: 100%;
+  background-color: #D3DEDB;
+  z-index: -10;
+
+  box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
+
+#Header-picture {
+  padding: 2em 0 0 0;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+#Header-title {
+  padding: 1em 0 0 0;
+  z-index: 1;
+  color: black;
+  font-weight: 700;
+  font-size: 24pt;
+  font-family: "Montserrat";
+}
+
+#Header-text {
+  margin: 0;
+  padding: 0;
+  color: #A8A5B0;
+  font-weight: 700;
+  font-size: 16pt;
+  font-family: "Montserrat";
+}
+
+/** Introduction/About stylings **/
 #Intro {
+  height: 100vh;
+  width: 100%;
+}
+
+#Intro-header {
+  padding: 1em 0 0 0;
+  color: black;
+  font-weight: 700;
+  font-size: 18pt;
+  font-family: "Montserrat";
+}
+
+#Intro-text {
+  margin: 0 27.5% 0 27.5%;
+  width: 45%;
+  padding: 0.5em 0 0 0;
+  color: black;
+  font-weight: 400;
+  font-size: 14pt;
+  font-family: "Raleway";
+}
+
+/** Education styling **/
+#Education {
 
 }
 
+/** Courses styling **/
+#Courses {
+  
+}
+
+
+/** Contacts styling **/
 #Contacts {
   
 }
