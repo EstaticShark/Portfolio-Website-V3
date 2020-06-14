@@ -29,7 +29,7 @@ function App() {
         </p>
       </div>
       <div id="Intro">
-        <div id="Intro-header">
+        <div className="Content-header">
           Introduction
         </div>
         <div id="Intro-text">
@@ -44,9 +44,34 @@ function App() {
       <div id="School-container">
         <div id="Education">
           <img src={uoftImage} className="Circle-image"/>
+          <div className="Content-header">
+            <span>Education</span>
+          </div>
+          <span className="Content-subheader">University of Toronto, St. George Campus (2018 - 2022/2023)</span>
+          <div className="Content-text">
+            <p>- Studying for B.Sc. in Computer Science</p>
+            <p>- GPA: 3.73/4.00 (As of June 14th, 2020)</p>
+            <p>- Computer Science Specialist</p>
+            <p>- Secondary Mathematics Major</p>
+            <p>- Open for 2021/2022 PEY co-op positions</p>
+          </div>
         </div>
         <div id="Courses">
           <img src={uoftImage} className="Circle-image"/>
+          <div className="Content-header">
+            <span>Relevant Courses</span>
+          </div>
+          <span className="Content-subheader">At University of Toronto St. George Campus</span>
+          <div className="Content-text">
+            <p>CSC108 (Intro to Comp Prog) - 89%</p>
+            <p>CSC148 (Intro to Comp Sci) - 87%</p>
+            <p>CSC165 (Math Expr&Rsng for Cs) - 91%</p>
+            <p>CSC207 (Software Design) - 87%</p>
+            <p>CSC209 (Soft Tools & Sys Prog) - 90%</p>
+            <p>CSC236 (Intro to Theory Comp) - 83%</p>
+            <p>CSC258 (Computer Organizatn) - 87%</p>
+            <p>CSC263 (Data Structures & Analysis) - 87%</p>
+          </div>
         </div>
       </div>
       <Courses/>

@@ -50,12 +50,31 @@
   padding: 2.5% 0;
 }
 
-#Intro-header {
+.Content-header {
   padding: 1em 0 0 0;
   color: black;
   font-weight: 700;
   font-size: 18pt;
   font-family: "Montserrat";
+}
+
+.Content-subheader {
+  padding: 1em 0 0 0;
+  color: black;
+  font-weight: 700;
+  font-size: 14pt;
+  font-family: "Montserrat";
+}
+
+.Content-text {
+  color: black;
+  font-weight: 400;
+  font-size: 14pt;
+  font-family: "Raleway";
+}
+
+.Content-text p {
+  text-align: left;
 }
 
 #Intro-text {
@@ -80,13 +99,17 @@
 /** Education styling **/
 #Education {
   display: inline-block;
-  padding: 0 0 0 10%;
+  /*padding: 0 0 0 10%;*/
+  margin: 0 5%;
+  width: 40%;
 }
 
 /** Courses styling **/
 #Courses {
   display: inline-block;
-  padding: 0 10% 0 0;
+  /*padding: 0 10% 0 0;*/
+  margin: 0 5%;
+  width: 40%;
 }
 
 .Circle-image {
