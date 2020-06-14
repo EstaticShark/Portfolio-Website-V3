@@ -45,8 +45,9 @@
 
 /** Introduction/About stylings **/
 #Intro {
-  height: 100vh;
+  height: auto;
   width: 100%;
+  padding: 2.5% 0;
 }
 
 #Intro-header {
@@ -67,16 +68,34 @@
   font-family: "Raleway";
 }
 
+
+#School-container {
+  width: 80%;
+  height: 100vh;
+  margin: 5em 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
 /** Education styling **/
 #Education {
-
+  display: inline-block;
+  padding: 0 0 0 10%;
 }
 
 /** Courses styling **/
 #Courses {
-  
+  display: inline-block;
+  padding: 0 10% 0 0;
 }
 
+.Circle-image {
+  background-color: #D3DEDB;
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
 
 /** Contacts styling **/
 #Contacts {

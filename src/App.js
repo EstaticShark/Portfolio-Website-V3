@@ -9,6 +9,8 @@ import Projects from './Projects.js';
 
 /** Import images **/
 import headerImage from '../src/assets/header-image.jpg'
+import uoftImage from '../src/assets/uoft.png'
+import { GiComputing } from "react-icons/gi";
 
 /** Import Styles **/
 import './styles/App.css';
@@ -39,11 +41,13 @@ function App() {
           can view my resume <a href="https://drive.google.com/open?id=1stbWlfTAVCdx1MCJwrVb7PcRH38nwYNw" className="text-link">here.</a>
         </div>
       </div>
-      <div id="Education">
-
-      </div>
-      <div id="Courses">
-
+      <div id="School-container">
+        <div id="Education">
+          <img src={uoftImage} className="Circle-image"/>
+        </div>
+        <div id="Courses">
+          <img src={uoftImage} className="Circle-image"/>
+        </div>
       </div>
       <Courses/>
       <Skills/>
