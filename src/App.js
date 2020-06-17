@@ -3,7 +3,6 @@ import React from 'react';
 
 /** Import components **/ 
 import Navbar from './Navbar.js';
-import Courses from './Courses.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
 
@@ -43,7 +42,10 @@ function App() {
       </div>
       <div id="School-container">
         <div id="Education">
-          <img src={uoftImage} className="Circle-image"/>
+          {/*<img src={uoftImage} className="Circle-image"/>*/}
+          <div className="Circle-image">
+            <img src={uoftImage} id="Uoft-icon" alt="Error"/>
+          </div>
           <div className="Content-header">
             <span>Education</span>
           </div>
@@ -54,10 +56,14 @@ function App() {
             <p>- Computer Science Specialist</p>
             <p>- Secondary Mathematics Major</p>
             <p>- Open for 2021/2022 PEY co-op positions</p>
+            <p>- Dean's List Student since 2019</p>
           </div>
         </div>
         <div id="Courses">
-          <img src={uoftImage} className="Circle-image"/>
+          {/*<img src={uoftImage} className="Circle-image"/>*/}
+          <div className="Circle-image">
+            <GiComputing size={128} id="Courses-icon"/>
+          </div>
           <div className="Content-header">
             <span>Relevant Courses</span>
           </div>
@@ -74,7 +80,6 @@ function App() {
           </div>
         </div>
       </div>
-      <Courses/>
       <Skills/>
       <Projects/>
       <div id="Contacts">

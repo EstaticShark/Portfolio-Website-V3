@@ -68,7 +68,7 @@
 
 .Content-text {
   color: black;
-  font-weight: 400;
+  font-weight: 550;
   font-size: 14pt;
   font-family: "Raleway";
 }
@@ -112,12 +112,26 @@
   width: 40%;
 }
 
+#Uoft-icon {
+  width: 12em;
+  height: 12em;
+}
+
+#Courses-icon {
+  line-height: 12em;
+  vertical-align: middle;
+  margin: auto;
+  height: 100%;
+}
+
 .Circle-image {
+  margin: 0 auto;
   background-color: #D3DEDB;
   width: 12em;
   height: 12em;
   border-radius: 50%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 
 /** Contacts styling **/
