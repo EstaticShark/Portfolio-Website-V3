@@ -1,3 +1,50 @@
-#Skills {
+.Skills {
+    display: inline-block;
+    width: 45%;
+    margin: 2.5%;
+}
 
+.Skills-image {
+    display: inline-block;
+    width: 25%;
+}
+
+.Skills-image-red {
+    background-color: #FA4F4F;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.Skills-image-teal {
+    background-color: #21CBC1;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.Skills-content {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+}
+
+.Skills-content h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.Skills-content p {
+    padding: 0 5%;
+    margin: 0;
+    text-align: left;
+    font-family: "Raleway";
 }
