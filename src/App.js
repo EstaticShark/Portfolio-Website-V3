@@ -7,9 +7,15 @@ import Skills from './Skills.js';
 import Projects from './Projects.js';
 
 /** Import images **/
-import headerImage from '../src/assets/header-image.jpg'
-import uoftImage from '../src/assets/uoft.png'
+import headerImage from '../src/assets/header-image.jpg';
+import uoftImage from '../src/assets/uoft.png';
 import { GiComputing } from "react-icons/gi";
+import javaIcon from '../src/assets/java-icon.jpg';
+import javascriptIcon from '../src/assets/javascript-icon.png';
+import pythonIcon from '../src/assets/python-icon.png';
+import latexIcon from '../src/assets/latex-icon.png';
+import reactIcon from '../src/assets/react-icon.png';
+import gcpIcon from '../src/assets/gcp-icon.png';
 
 /** Import Styles **/
 import './styles/App.css';
@@ -21,12 +27,13 @@ class App extends Component {
     //State initilization
     this.state = {
       skills: [
-                {title: "Java", description: "I have about 2 years of experience with Java. I've created a mobile game application on Android Studio Development Suite with this language.", picture: uoftImage, color: "red"},
-                {title: "Python", description: "As one of my main languages, I have 2 years of experience with Python. I've utilized Python for several hackathons, mostly for setting up endpoints and API calls. And have other small projects where I nade webscrapers and Discord bots.", picture: uoftImage, color: "red"},
-                {title: "Javascript", description: "I am reaching 1 year of experience with Javascript. It is extensively used with my React projects.", picture: uoftImage, color: "red"},
-                {title: "React", description: "My main front-end framework for developing webpages such as this. So far, I have been actively using React for 6 months both in and out of school", picture: uoftImage, color: "teal"},
-                {title: "LaTeX", description: "A document preparation system I have used extensively since my start at university. I have 2 years of experience using TeX for writing notes and completing papers. I have even worked on a program with others that converts handwriting to TeX", picture: uoftImage, color: "teal"},
-                
+                {title: "Java", description: "I have about 2 years of experience with Java. I've created a mobile game application on Android Studio Development Suite with this language.", picture: javaIcon, color: "red"},
+                {title: "Python", description: "As one of my main languages, I have 2 years of experience with Python. I've utilized Python for several hackathons, mostly for setting up endpoints and API calls. And have other small projects where I made webscrapers and Discord bots.", picture: pythonIcon, color: "red"},
+                {title: "Javascript", description: "I am reaching 1 year of experience with Javascript. It is extensively used with my React projects.", picture: javascriptIcon, color: "red"},
+                {title: "React", description: "My main front-end framework for developing webpages such as this. So far, I have been actively using React for 6 months both in and out of school", picture: reactIcon, color: "teal"},
+                {title: "LaTeX", description: "A document preparation system I have used extensively since my start at university. I have 2 years of experience using TeX for writing notes and completing papers. I have even worked on a program with others that converts handwriting to TeX", picture: latexIcon, color: "teal"},
+                {title: "Google Cloud Platform", description: "I have experience working with many of GCP's features such as Firebase, Cloud Storage and Cloud functions. Most of this experience comes from using them in hackathons.", picture: gcpIcon, color: "teal"},
+
               ]
     };
 
@@ -83,6 +90,7 @@ class App extends Component {
               <p>- Secondary Mathematics Major</p>
               <p>- Open for 2021/2022 PEY co-op positions</p>
               <p>- Dean's List Student since 2019</p>
+              <p>- Later Life Learning OSOTF Award 2019 (3.70+ GPA)</p>
             </div>
           </div>
           <div id="Courses">
@@ -109,6 +117,9 @@ class App extends Component {
         <h2 id="Skills-header">
           Skills
         </h2>
+        <p id="Skills-subheader">
+          (Though not limited to...)
+        </p>
         <div id="Skills-container">
           {this.getSkills()}
         </div>

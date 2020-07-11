@@ -1,12 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './styles/Projects.css';
 
-function Projects() {
-  return (
-    <div id="Projects">
+class Projects extends Component{
+  constructor(props) {
+    super(props);
+
+    //State initilization
+    this.state = {
       
-    </div>
-  );
+    };
+
+    //Binding functions
+
+  }
+  
+  render() {
+    return (
+      <div className="Projects">
+
+      </div>
+    );
+  }
 }
 
 export default Projects;

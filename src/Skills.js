@@ -13,22 +13,12 @@ class Skills extends Component{
     //Binding functions
 
   }
-
-  getImageColor = () => {
-    if(this.props.color === "red") {
-      return "Skills-image-red";
-    } else if(this.props.color === "teal") {
-      return "Skills-image-teal";
-    } else {
-      return "Skills-image-teal";
-    }
-  }
   
   render() {
     return (
       <tr className="Skills">
         <td className="Skills-image">
-            <img className={this.getImageColor()} src={this.props.picture} alt="Error"/>
+            <img src={this.props.picture} alt="Error"/>
         </td>
         <td className="Skills-content">
           <h2>
