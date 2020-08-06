@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website-V3/static/css/main.7b68fd16.chunk.css",
+    "main.js": "/Portfolio-Website-V3/static/js/main.712bf3fc.chunk.js",
+    "main.js.map": "/Portfolio-Website-V3/static/js/main.712bf3fc.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Website-V3/static/js/runtime-main.ea9d5bff.js",
+    "runtime-main.js.map": "/Portfolio-Website-V3/static/js/runtime-main.ea9d5bff.js.map",
+    "static/js/2.d940bbfd.chunk.js": "/Portfolio-Website-V3/static/js/2.d940bbfd.chunk.js",
+    "static/js/2.d940bbfd.chunk.js.map": "/Portfolio-Website-V3/static/js/2.d940bbfd.chunk.js.map",
+    "index.html": "/Portfolio-Website-V3/index.html",
+    "precache-manifest.3c4a5fcbaa41bbea0572bcbb614535f9.js": "/Portfolio-Website-V3/precache-manifest.3c4a5fcbaa41bbea0572bcbb614535f9.js",
+    "service-worker.js": "/Portfolio-Website-V3/service-worker.js",
+    "static/css/main.7b68fd16.chunk.css.map": "/Portfolio-Website-V3/static/css/main.7b68fd16.chunk.css.map",
+    "static/js/2.d940bbfd.chunk.js.LICENSE.txt": "/Portfolio-Website-V3/static/js/2.d940bbfd.chunk.js.LICENSE.txt",
+    "static/media/android-game-1.PNG": "/Portfolio-Website-V3/static/media/android-game-1.f227efab.PNG",
+    "static/media/android-game-2.PNG": "/Portfolio-Website-V3/static/media/android-game-2.f20a242f.PNG",
+    "static/media/android-game-3.PNG": "/Portfolio-Website-V3/static/media/android-game-3.6b2b884a.PNG",
+    "static/media/android-game-4.PNG": "/Portfolio-Website-V3/static/media/android-game-4.f1ac211d.PNG",
+    "static/media/gcp-icon.png": "/Portfolio-Website-V3/static/media/gcp-icon.bb9d1d17.png",
+    "static/media/header-image.jpg": "/Portfolio-Website-V3/static/media/header-image.1acd21ea.jpg",
+    "static/media/java-icon.jpg": "/Portfolio-Website-V3/static/media/java-icon.9700daf7.jpg",
+    "static/media/javascript-icon.png": "/Portfolio-Website-V3/static/media/javascript-icon.d3304b83.png",
+    "static/media/latex-icon.png": "/Portfolio-Website-V3/static/media/latex-icon.67d0c407.png",
+    "static/media/lol-info-1.PNG": "/Portfolio-Website-V3/static/media/lol-info-1.32b1b8d0.PNG",
+    "static/media/lol-info-2.PNG": "/Portfolio-Website-V3/static/media/lol-info-2.715d2e42.PNG",
+    "static/media/porfolio-site-1.PNG": "/Portfolio-Website-V3/static/media/porfolio-site-1.97416e20.PNG",
+    "static/media/python-icon.png": "/Portfolio-Website-V3/static/media/python-icon.6679777e.png",
+    "static/media/react-icon.png": "/Portfolio-Website-V3/static/media/react-icon.ae90d980.png",
+    "static/media/stem-notes-1.PNG": "/Portfolio-Website-V3/static/media/stem-notes-1.510cdcbc.PNG",
+    "static/media/stem-notes-2.PNG": "/Portfolio-Website-V3/static/media/stem-notes-2.3b41773c.PNG",
+    "static/media/uoft.png": "/Portfolio-Website-V3/static/media/uoft.11ec10a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea9d5bff.js",
+    "static/js/2.d940bbfd.chunk.js",
+    "static/css/main.7b68fd16.chunk.css",
+    "static/js/main.712bf3fc.chunk.js"
+  ]
+}
