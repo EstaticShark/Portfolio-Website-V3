@@ -16,6 +16,16 @@ import pythonIcon from '../src/assets/python-icon.png';
 import latexIcon from '../src/assets/latex-icon.png';
 import reactIcon from '../src/assets/react-icon.png';
 import gcpIcon from '../src/assets/gcp-icon.png';
+import lolInfo1 from '../src/assets/lol-info-1.PNG';
+import lolInfo2 from '../src/assets/lol-info-2.PNG';
+import androidGame1 from '../src/assets/android-game-1.PNG';
+import androidGame2 from '../src/assets/android-game-2.PNG';
+import androidGame3 from '../src/assets/android-game-3.PNG';
+import androidGame4 from '../src/assets/android-game-4.PNG';
+import stemNotes1 from '../src/assets/stem-notes-1.PNG';
+import stemNotes2 from '../src/assets/stem-notes-2.PNG';
+import portfolioSite from '../src/assets/porfolio-site-1.PNG';
+
 
 /** Import Styles **/
 import './styles/App.css';
@@ -34,11 +44,18 @@ class App extends Component {
                 {title: "LaTeX", description: "A document preparation system I have used extensively since my start at university. I have 2 years of experience using TeX for writing notes and completing papers. I have even worked on a program with others that converts handwriting to TeX", picture: latexIcon, color: "teal"},
                 {title: "Google Cloud Platform", description: "I have experience working with many of GCP's features such as Firebase, Cloud Storage and Cloud functions. Most of this experience comes from using them in hackathons.", picture: gcpIcon, color: "teal"},
 
-              ]
+              ],
+      projects: [
+        {title: "LoL Info Bot", description:"(July 2019 - August 2019) A Discord bot created with Python that searches for information on players in the popular online video game, League of Legends. Utilizes webscraping, requests and external API's to gather the information, and event-based programming to deliver the information.", picture: [lolInfo1, lolInfo2]},
+        {title: "Stem Notes", description:"(January 2020) A Hackathon project using OCR to recognize handwriting and output it in latex. I was responsible for the backend set up on the Google Cloud Platform, which communicated with the APIs, iPad and the host output website.", picture:[stemNotes1, stemNotes2]},
+        {title: "Politics Simulation Game", description:"(November - December 2019) Created a Android game which depicted the user as a candidate in a satirical election for the world. Created views using Android Studio and Java, and utilized software design principles and patterns to implement the app with a Model-View-Presenter pattern.", picture:[androidGame1, androidGame2, androidGame3, androidGame4]},
+        {title: "Portfolio Website", description:"(August 2019 - Present) A series of portfolio websites I made after taking FreeCodeCamp lessons. I created the first one out of pure HTML and CSS and then the second and third one, which you see now, in React.", picture:[portfolioSite]}
+                ]
     };
 
     //Binding functions
     this.getSkills.bind(this.getSkills);
+    this.getProjects.bind(this.getProjects);
   }
 
   getSkills = () => {
@@ -47,9 +64,16 @@ class App extends Component {
     });
   }
 
+  getProjects = () => {
+    return this.state.projects.map((project, index) => {
+      return <Projects title={project.title} description={project.description} picture={project.picture}/>;
+    });
+  }
+
   render() {
     return (
       <div className="App">
+        <div id="#home"></div>
         <Navbar/>
         <div id="Header">
           <img id="Header-picture" src={headerImage} alt="Missing asset"/>
@@ -57,7 +81,7 @@ class App extends Component {
             Martin Chak
           </header>
           <p id="Header-text">
-            Third Year Computer Science Student <br/> And Aspiring Software Developer
+            Computer Science Student <br/> And Aspiring Software Developer
           </p>
         </div>
         <div id="Intro">
@@ -72,6 +96,7 @@ class App extends Component {
             I'm currently looking for 2020-2022 PEY co-op positions at the moment, if you're interested you
             can view my resume <a href="https://drive.google.com/open?id=1stbWlfTAVCdx1MCJwrVb7PcRH38nwYNw" className="text-link">here.</a>
           </div>
+          <div id="#about"></div>
         </div>
         <div id="School-container">
           <div id="Education">
@@ -123,9 +148,45 @@ class App extends Component {
         <div id="Skills-container">
           {this.getSkills()}
         </div>
-        <Projects/>
-        <div id="Contacts">
 
+        <h2 id="Projects-header">
+          Projects
+        </h2>
+        <div id="#projects"></div>
+        <div id="Project-container">
+          {this.getProjects()}
+        </div>
+        <div id="Contacts">
+          <div id="#contacts"></div>
+          <div className="Content-header">
+            Contact Info
+          </div>
+          <div id="Contact-text">
+            <tr>
+                <td>
+                  Github:
+                </td>
+                <td>
+                  <a href="https://github.com/EstaticShark">https://github.com/EstaticShark</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  Linkedin:
+                </td>
+                <td>
+                  <a href="https://www.linkedin.com/in/martinchak/">https://www.linkedin.com/in/martinchak/</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  Email:
+                </td>
+                <td>
+                  <a href="mailto:martin.chak@mail.utoronto.ca">martin.chak@mail.utoronto.ca</a>
+                </td>
+            </tr>
+          </div>
         </div>
       </div>
     );

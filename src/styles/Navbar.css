@@ -3,7 +3,7 @@
     top:0;
     left:0;
     height: 60px;
-    width: 100%;
+    width: 100vw;
     background-color: #21CBC1;
 }
 
@@ -32,13 +32,18 @@
     overflow: hidden;
 }
 
-#Navbar-fields p {
+.Navbar-fields-text {
     display:inline-block;
     /*word-wrap: break-word;*/
     padding: 0 0.5em;
     margin: 0em;
+    text-decoration: none;
     
     font-size: 18pt;
     font-family: "raleway";
     color: white;
+}
+
+.Navbar-fields-text:hover {
+    color: blue;
 }

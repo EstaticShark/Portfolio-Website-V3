@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/Projects.css';
+import Carousel from './Carousel.js';
 
 class Projects extends Component{
   constructor(props) {
@@ -17,7 +18,17 @@ class Projects extends Component{
   render() {
     return (
       <div className="Projects">
+        <div className="project-title">
+          {this.props.title}
+        </div>
 
+        {/*<img src={this.props.picture} className="project-image"/>*/}
+
+        <Carousel images={this.props.picture}/>
+
+        <div className="project-content">
+          {this.props.description}
+        </div>
       </div>
     );
   }

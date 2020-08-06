@@ -1,0 +1,54 @@
+.Carousel {
+    height: 25em;
+    width: 80%;
+    overflow: hidden;
+    padding: 1em;
+    margin: auto;
+}
+
+.Carousel-container {
+    display: inline-block;
+    line-height: 100%;
+    height: 100%;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.Slide-image {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.Arrow-background {
+    display: inline-block;
+    line-height: 100%;
+    height: 100%;
+    width: 2.5%;
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: middle;
+    background-color: #F0F0F0;
+    justify-content: center;
+    align-items: center;
+}
+
+.Left-arrow {
+    line-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.Right-arrow {
+    line-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
